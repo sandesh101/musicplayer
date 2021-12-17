@@ -1,14 +1,14 @@
 [{
         "rating": "5",
-        "title": "Atlas of the Heart",
-        "author": "Brene Brown",
+        "title": "The Psychology of Money",
+        "author": "Morgan Housel",
         "img": "assets/images/Book1.jpg",
         "audio": ""
     },
     {
         "rating": "5",
-        "title": "Atomic Habits",
-        "author": "James Clear",
+        "title": "How Inovation Works",
+        "author": "Matt Ridley",
         "img": "assets/images/Book2.jpg",
         "audio": ""
     },
