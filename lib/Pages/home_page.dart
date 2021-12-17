@@ -12,7 +12,32 @@ class _HomePageState extends State<HomePage> {
     return Container(
       color: AppColors.background,
       child: SafeArea(
-        child: Scaffold(),
+        child: Scaffold(
+          body: Column(
+            children: [
+              Container(
+                margin: const EdgeInsets.only(left: 20, right: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    ImageIcon(
+                      AssetImage('assets/images/menu.png'),
+                      size: 24,
+                      // color: Colors.black,
+                    ),
+                    Row(
+                      children: [
+                        const Icon(Icons.search),
+                        const SizedBox(width: 10),
+                        const Icon(Icons.notifications),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
