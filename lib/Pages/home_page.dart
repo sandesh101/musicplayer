@@ -35,6 +35,54 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
+              SizedBox(height: 20),
+              Row(
+                children: [
+                  Container(
+                    margin: const EdgeInsets.only(
+                      left: 20,
+                    ),
+                    child: const Text(
+                      'Popular Books',
+                      style: TextStyle(fontSize: 24),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 10),
+              Container(
+                height: 180,
+                child: Stack(
+                  children: [
+                    Positioned(
+                      left: -20,
+                      top: 0,
+                      right: 0,
+                      child: SizedBox(
+                        height: 180,
+                        child: PageView.builder(
+                          controller: PageController(viewportFraction: 0.8),
+                          itemCount: 5,
+                          itemBuilder: (_, i) {
+                            return Container(
+                              height: 180,
+                              width: MediaQuery.of(context).size.width,
+                              margin: const EdgeInsets.only(right: 10),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15),
+                                image: DecorationImage(
+                                  image: AssetImage('assets/images/Book1.jpg'),
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
