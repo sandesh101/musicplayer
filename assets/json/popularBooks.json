@@ -1,0 +1,50 @@
+[{
+        "rating": "5",
+        "title": "Atlas of the Heart",
+        "author": "Brene Brown",
+        "img": "assets/images/Book1.jpg",
+        "audio": ""
+    },
+    {
+        "rating": "5",
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "img": "assets/images/Book2.jpg",
+        "audio": ""
+    },
+    {
+        "rating": "4.5",
+        "title": "Diffuclt Riddle for Smart Kids",
+        "author": "M Prefontaine",
+        "img": "assets/images/Book3.jpg",
+        "audio": ""
+    },
+    {
+        "rating": "4.5",
+        "title": "Interesting Stories",
+        "author": "Bill O Neil",
+        "img": "assets/images/Book4.jpg",
+        "audio": ""
+    },
+    {
+        "rating": "5",
+        "title": "Life Skills",
+        "author": "Karen Harris",
+        "img": "assets/images/Book5.jpg",
+        "audio": ""
+    },
+    {
+        "rating": "3",
+        "title": "Wacky Wavin",
+        "author": "Paperback",
+        "img": "assets/images/Book6.jpg",
+        "audio": ""
+    },
+    {
+        "rating": "4.5",
+        "title": "Dad Jokes",
+        "author": "Dan Gilden",
+        "img": "assets/images/Book7.jpg",
+        "audio": ""
+    }
+]

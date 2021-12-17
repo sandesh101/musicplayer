@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:musicplayer/Variables/colors.dart' as AppColors;
 
@@ -7,6 +9,23 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  List popularBooks = [];
+  ReadBookData() async {
+    await DefaultAssetBundle.of(context)
+        .loadString('assets/json/popularBooks.json')
+        .then((s) {
+      setState(() {
+        popularBooks = json.decode(s);
+      });
+    });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    ReadBookData();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -62,7 +81,8 @@ class _HomePageState extends State<HomePage> {
                         height: 180,
                         child: PageView.builder(
                           controller: PageController(viewportFraction: 0.8),
-                          itemCount: 5,
+                          itemCount:
+                              popularBooks == null ? 0 : popularBooks.length,
                           itemBuilder: (_, i) {
                             return Container(
                               height: 180,
@@ -71,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15),
                                 image: DecorationImage(
-                                  image: AssetImage('assets/images/Book1.jpg'),
+                                  image: AssetImage(popularBooks[i]['img']),
                                   fit: BoxFit.cover,
                                 ),
                               ),
