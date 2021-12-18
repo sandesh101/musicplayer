@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    ImageIcon(
+                    const ImageIcon(
                       AssetImage('assets/images/menu.png'),
                       size: 24,
                       // color: Colors.black,
@@ -103,6 +103,23 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
+              SizedBox(height: 20),
+              Row(
+                children: [
+                  Container(
+                    height: 60,
+                    width: 100,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: AppColors.menu2Color),
+                    child: const Center(
+                        child: Text(
+                      'New',
+                      style: TextStyle(color: Colors.white, fontSize: 20),
+                    )),
+                  ),
+                ],
+              )
             ],
           ),
         ),
