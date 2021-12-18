@@ -104,21 +104,51 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               SizedBox(height: 20),
-              Row(
-                children: [
-                  Container(
-                    height: 60,
-                    width: 100,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: AppColors.menu2Color),
-                    child: const Center(
+              SingleChildScrollView(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Container(
+                      height: 60,
+                      width: 120,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: AppColors.starColor),
+                      child: const Center(
                         child: Text(
-                      'New',
-                      style: TextStyle(color: Colors.white, fontSize: 20),
-                    )),
-                  ),
-                ],
+                          'New',
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      height: 60,
+                      width: 120,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: AppColors.menu2Color),
+                      child: const Center(
+                        child: Text(
+                          'Popular',
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      height: 60,
+                      width: 120,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: AppColors.menu3Color),
+                      child: const Center(
+                        child: Text(
+                          'Trending',
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               )
             ],
           ),
