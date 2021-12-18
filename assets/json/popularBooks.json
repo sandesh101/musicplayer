@@ -1,50 +1,51 @@
-[{
-        "rating": "5",
-        "title": "The Psychology of Money",
-        "author": "Morgan Housel",
-        "img": "assets/images/Book1.jpg",
-        "audio": ""
-    },
-    {
-        "rating": "5",
-        "title": "How Inovation Works",
-        "author": "Matt Ridley",
-        "img": "assets/images/Book2.jpg",
-        "audio": ""
-    },
-    {
-        "rating": "4.5",
-        "title": "Diffuclt Riddle for Smart Kids",
-        "author": "M Prefontaine",
-        "img": "assets/images/Book3.jpg",
-        "audio": ""
-    },
-    {
-        "rating": "4.5",
-        "title": "Interesting Stories",
-        "author": "Bill O Neil",
-        "img": "assets/images/Book4.jpg",
-        "audio": ""
-    },
-    {
-        "rating": "5",
-        "title": "Life Skills",
-        "author": "Karen Harris",
-        "img": "assets/images/Book5.jpg",
-        "audio": ""
-    },
-    {
-        "rating": "3",
-        "title": "Wacky Wavin",
-        "author": "Paperback",
-        "img": "assets/images/Book6.jpg",
-        "audio": ""
-    },
-    {
-        "rating": "4.5",
-        "title": "Dad Jokes",
-        "author": "Dan Gilden",
-        "img": "assets/images/Book7.jpg",
-        "audio": ""
-    }
+[
+  {
+    "rating": "5",
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "img": "assets/images/Book1.jpg",
+    "audio": ""
+  },
+  {
+    "rating": "5",
+    "title": "How Inovation Works",
+    "author": "Matt Ridley",
+    "img": "assets/images/Book2.jpg",
+    "audio": ""
+  },
+  {
+    "rating": "4.5",
+    "title": "101 Essays that will change your life",
+    "author": "Brianna Wiest",
+    "img": "assets/images/Book3.jpg",
+    "audio": ""
+  },
+  {
+    "rating": "4.5",
+    "title": "The Puppeteer",
+    "author": "Jostein Gaarder",
+    "img": "assets/images/Book4.jpg",
+    "audio": ""
+  },
+  {
+    "rating": "5",
+    "title": "Crazy Love",
+    "author": "Francis Chan",
+    "img": "assets/images/Book5.jpg",
+    "audio": ""
+  },
+  {
+    "rating": "3",
+    "title": "The Bar Book",
+    "author": "Eleven Mirrors",
+    "img": "assets/images/Book6.jpg",
+    "audio": ""
+  },
+  {
+    "rating": "4.5",
+    "title": "Happy",
+    "author": "Alex Lemon",
+    "img": "assets/images/Book7.jpg",
+    "audio": ""
+  }
 ]
